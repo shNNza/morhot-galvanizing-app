@@ -1,10 +1,10 @@
-name: Build Android APK
+ name: Build Android APK
 
   on:
     push:
-      branches: [ main, master ]
+      branches: [main, master]
     pull_request:
-      branches: [ main, master ]
+      branches: [main, master]
     workflow_dispatch:
 
   jobs:
@@ -45,30 +45,3 @@ name: Build Android APK
         with:
           name: morhot-galvanizing-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
-
-      - name: Create Release
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: v1.0.${{ github.run_number }}
-          name: Morhot Galvanizing App v1.0.${{ github.run_number }}
-          body: |
-            🚀 **Morhot Galvanizing Android App**
-
-            📱 **Features:**
-            - Digital job card capture
-            - Morhot branding and logo integration
-            - Offline capabilities
-            - Pastel accounting integration ready
-
-            📥 **Installation:**
-            1. Download the APK below
-            2. Enable "Unknown sources" in Android settings
-            3. Install the APK on your device
-
-            Built automatically from commit ${{ github.sha }}
-          files: app/build/outputs/apk/debug/app-debug.apk
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
