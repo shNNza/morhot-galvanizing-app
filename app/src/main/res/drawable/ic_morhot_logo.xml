@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M60,60m-58,0a58,58 0,1 1,116 0a58,58 0,1 1,-116 0" />
+    
+    <!-- Letter M -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,35 L25,85 L30,85 L30,45 L37,65 L43,65 L50,45 L50,85 L55,85 L55,35 L47,35 L40,60 L33,35 Z" />
+    
+    <!-- Letter G -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,35 C70,35 75,38 78,42 L75,46 C73,43 69,41 65,41 C58,41 53,46 53,60 C53,74 58,79 65,79 C69,79 73,77 75,74 L75,68 L68,68 L68,63 L80,63 L80,77 C77,82 71,85 65,85 C55,85 47,77 47,60 C47,43 55,35 65,35 Z" />
+    
+    <!-- Decorative elements (representing galvanizing/coating) -->
+    <circle
+        android:fillColor="#42A5F5"
+        android:cx="35"
+        android:cy="25"
+        android:radius="3" />
+    
+    <circle
+        android:fillColor="#42A5F5"
+        android:cx="85"
+        android:cy="25"
+        android:radius="3" />
+    
+    <circle
+        android:fillColor="#42A5F5"
+        android:cx="35"
+        android:cy="95"
+        android:radius="3" />
+    
+    <circle
+        android:fillColor="#42A5F5"
+        android:cx="85"
+        android:cy="95"
+        android:radius="3" />
+</vector>

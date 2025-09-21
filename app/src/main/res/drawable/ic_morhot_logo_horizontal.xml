@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="60dp"
+    android:viewportWidth="200"
+    android:viewportHeight="60">
+    
+    <!-- Logo circle -->
+    <circle
+        android:fillColor="#1976D2"
+        android:cx="30"
+        android:cy="30"
+        android:radius="25" />
+    
+    <!-- M in circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,20 L20,40 L22,40 L22,25 L25,35 L27,35 L30,25 L30,40 L32,40 L32,20 L29,20 L25,32 L21,20 Z" />
+    
+    <!-- G in circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,20 C37,20 38.5,21 39.5,22.5 L38.5,23.5 C37.8,22.5 36.5,22 35,22 C33,22 31.5,23.5 31.5,30 C31.5,36.5 33,38 35,38 C36.5,38 37.8,37.5 38.5,36.5 L38.5,34 L36,34 L36,32.5 L40,32.5 L40,37.5 C39,39 37,40 35,40 C32,40 29,37 29,30 C29,23 32,20 35,20 Z" />
+    
+    <!-- Company text -->
+    <text
+        android:text="MORHOT"
+        android:textColor="#1976D2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:x="70"
+        android:y="25" />
+    
+    <text
+        android:text="GALVANIZING"
+        android:textColor="#757575"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:x="70"
+        android:y="40" />
+    
+    <!-- Decorative line -->
+    <path
+        android:strokeColor="#42A5F5"
+        android:strokeWidth="2"
+        android:pathData="M70,45 L180,45" />
+</vector>

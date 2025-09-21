@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_80">#FFD0BCFF</color>
+    <color name="purple_grey_80">#FFCCC2DC</color>
+    <color name="pink_80">#FFEFB8C8</color>
+
+    <color name="purple_40">#FF6650A4</color>
+    <color name="purple_grey_40">#FF625B71</color>
+    <color name="pink_40">#FF7D5260</color>
+    
+    <!-- Morhot Galvanizing Brand Colors -->
+    <color name="morhot_red">#FFE53E3E</color>
+    <color name="morhot_dark_red">#FFC53030</color>
+    <color name="morhot_light_red">#FFFC8181</color>
+    <color name="morhot_black">#FF1A202C</color>
+    <color name="morhot_gray">#FF718096</color>
+    <color name="morhot_light_gray">#FFE2E8F0</color>
+    
+    <!-- Common colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
